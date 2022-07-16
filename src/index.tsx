@@ -27,7 +27,9 @@ function App() {
         <button onClick={(event) => { setPage("ControllerScheme") }} className={page === "ControllerScheme" ? "headerButtonActivated" : "headerButton"}>ControllerScheme</button>
       </div>
 
-      {toRender}
+      <div className="content">
+        {toRender}
+      </div>
     </React.StrictMode>
   )
 }

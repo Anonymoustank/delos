@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .headerButton {
-    @apply w-56 border-blue-500 border-4 text-blue-500 m-2; 
+    @apply w-56 border-blue-500 border-4 text-blue-500 p-1 m-2; 
 }
 
 .headerButtonActivated {
-    @apply w-56 bg-blue-500 text-white m-2;
+    @apply w-56 bg-blue-500 border-4 text-white p-1 m-2;
+}
+
+.content {
+    @apply m-2;
 }

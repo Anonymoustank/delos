@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.headerButton {
+    @apply w-56 border-blue-500 border-4 text-blue-500 m-2; 
+}
+
+.headerButtonActivated {
+    @apply w-56 bg-blue-500 text-white m-2;
+}
